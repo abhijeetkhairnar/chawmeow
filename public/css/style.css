@@ -84,22 +84,24 @@ padding-bottom:5px;
 }
 #dashbord-left{
 width:500px;
-border:2px solid #424343;
+border:1px solid #424343;
 float:left;
 margin-right:50px;
+margin-bottom:20px;
 border-radius:5px;
 background-color:#fff;
 padding:10px;
 min-height:200px;
 }
 #dashbord-right{
-width:700px;
-border:2px solid #424343;
+width:600px;
+border:1px solid #424343;
 float:left;
 border-radius:5px;
 background-color:#fff;
 padding:10px;
 min-height:200px;
+margin-bottom:20px;
 }
 #summary-count-warrper{
 overflow:hidden;
@@ -132,7 +134,7 @@ background-color:#9A9B9D;
 overflow:hidden
 }
 #report-favorites-div{
-padding:20px;
+padding:10px 20px;
 }
 #report-favorites-div .report-favorites-row{
 border:1px solid #D6D5D4;
@@ -145,4 +147,41 @@ div.add-favorites-report{
 font-size:22px;
 text-align:center;
 padding-top:35px;
+}
+.report-favorites-row .content-row{
+overflow:hidden;
+}
+.report-favorites-row .content-row h2{
+color:#E87E92;
+font-size:18px;
+}
+.report-favorites-row:hover{
+background-color:#F3EBEB !important;
+border:1px solid #E87E92 !important;
+}
+.report-favorites-row .content-row .left-content{
+float:left;
+width:300px;
+}
+.report-favorites-row .content-row .right-content{
+float:right;
+width:200px;
+text-align:right;
+}
+.report-favorites-row .content-row .right-content .run-div{
+padding:20px;
+}
+.report-favorites-row .content-row .right-content .run-div a{
+padding:5px 10px;
+border:1px solid #424343;
+border-radius:5px;
+color:#424343;
+font-weight:bold;
+background-color:#E87E92;
+}
+.report-favorites-row .content-row .right-content .action-icon-div{
+padding:20px;
+}
+.report-favorites-row .content-row .right-content .action-icon-div a{
+padding:10px 5px;
 }
